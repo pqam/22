@@ -5,43 +5,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: MO 1 → openitsub.com, server: 45.64.22.55, port: 443, type: trojan, password: TaSXwOxORaZ7pD8DlzCE3yNFS5C38eeCuDng03FcA4BSpjK96YaZRIAlx2yqY3, sni: mhkla.freetrade.link, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点), server: 172.64.153.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: 172.64.154.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: US 美国(Youtube频道：工具大师！), server: 66.212.20.3, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray2.ssr-free2.xyz}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: 172.64.154.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: (Youtube频道：工具大师！)美国, server: 172.64.152.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: us美国(yudou66.com 玉豆免费节点), server: 141.101.114.120, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}, udp: true}
+  - {name: Youtube@One·资源核 4, server: 141.101.115.20, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash1.trump2023.net}}, udp: true}
   - {name: 【YouTube-由零開始】, server: 141.101.114.120, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点), server: 172.64.154.102, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: 欧洲(yudou66.com 玉豆免费节点), server: 141.101.114.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: clash6.ssr-free.xyz, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: US 美国(youtube阿伟科技), server: ip.skk.moe, port: 2086, type: vmess, uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: buyvm.cloudflare.quest}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: 141.101.114.200, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray2.ssr-free2.xyz}}, udp: true}
+  - {name: 欧洲(yudou66.com 玉豆免费节点), server: 198.41.212.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: t(Youtube频道：工具大师！) 8, server: 172.64.153.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: 美国-3.03MB/s(Youtube频道：工具大师！), server: 22.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 22.72img.xyz}}, udp: true}
+  - {name: US 美国(youtube阿伟科技) 2, server: www.gov.hk, port: 2086, type: vmess, uuid: 1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: linus.cloudflare.quest}}, udp: true}
+  - {name: 未知国家(Youtube频道：工具大师！), server: 20.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20.72img.xyz}}, udp: true}
+  - {name: t(Youtube频道：工具大师！) 7, server: 51.75.70.34, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
+  - {name: 5, server: 35.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 35.72img.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 18, server: 43.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 43.72img.xyz}}, udp: true}
+  - {name: US 美国(Youtube频道：工具大师！) 2, server: 128.14.140.254, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray2.ssr-free2.xyz}}, udp: true}
+  - {name: "@SSRSUB-V12-付费推荐:suo.yt/ssrsub", server: 57.128.45.161, port: 80, type: vmess, uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /user, headers: {Host: 57.128.45.161}}, udp: true}
+  - {name: 【YouTube-由零開始】 2, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol.fovi.tk}}, udp: true}
   - {name: 中国【YouTube-由零開始】, server: 119.36.161.40, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.55321621.xyz}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: 172.64.153.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: US 美国(Youtube频道：工具大师！) 3, server: 146.56.166.153, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray2.ssr-free2.xyz}}, udp: true}
+  - {name: t(Youtube频道：工具大师！) 10, server: 128.14.140.254, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /123, headers: {Host: zz1.wblogw1.tk}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【YouTube-由零開始】
+      - MO 1 → openitsub.com
       - 美国(yudou66.com 玉豆免费节点)
-      - 欧洲(yudou66.com 玉豆免费节点)
-      - 中国【YouTube-由零開始】
       - 美国(yudou66.com 玉豆免费节点) 2
+      - US 美国(Youtube频道：工具大师！)
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - (Youtube频道：工具大师！)美国
+      - us美国(yudou66.com 玉豆免费节点)
+      - Youtube@One·资源核 4
+      - 【YouTube-由零開始】
+      - US 美国(youtube阿伟科技)
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 欧洲(yudou66.com 玉豆免费节点)
+      - t(Youtube频道：工具大师！) 8
+      - 美国-3.03MB/s(Youtube频道：工具大师！)
+      - US 美国(youtube阿伟科技) 2
+      - 未知国家(Youtube频道：工具大师！)
+      - t(Youtube频道：工具大师！) 7
+      - 5
+      - github.com/freefq - 美国CloudFlare节点 18
+      - US 美国(Youtube频道：工具大师！) 2
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - 【YouTube-由零開始】 2
+      - 中国【YouTube-由零開始】
+      - US 美国(Youtube频道：工具大师！) 3
+      - t(Youtube频道：工具大师！) 10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【YouTube-由零開始】
+      - MO 1 → openitsub.com
       - 美国(yudou66.com 玉豆免费节点)
-      - 欧洲(yudou66.com 玉豆免费节点)
-      - 中国【YouTube-由零開始】
       - 美国(yudou66.com 玉豆免费节点) 2
+      - US 美国(Youtube频道：工具大师！)
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - (Youtube频道：工具大师！)美国
+      - us美国(yudou66.com 玉豆免费节点)
+      - Youtube@One·资源核 4
+      - 【YouTube-由零開始】
+      - US 美国(youtube阿伟科技)
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 欧洲(yudou66.com 玉豆免费节点)
+      - t(Youtube频道：工具大师！) 8
+      - 美国-3.03MB/s(Youtube频道：工具大师！)
+      - US 美国(youtube阿伟科技) 2
+      - 未知国家(Youtube频道：工具大师！)
+      - t(Youtube频道：工具大师！) 7
+      - 5
+      - github.com/freefq - 美国CloudFlare节点 18
+      - US 美国(Youtube频道：工具大师！) 2
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - 【YouTube-由零開始】 2
+      - 中国【YouTube-由零開始】
+      - US 美国(Youtube频道：工具大师！) 3
+      - t(Youtube频道：工具大师！) 10
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【YouTube-由零開始】
+      - MO 1 → openitsub.com
       - 美国(yudou66.com 玉豆免费节点)
-      - 欧洲(yudou66.com 玉豆免费节点)
-      - 中国【YouTube-由零開始】
       - 美国(yudou66.com 玉豆免费节点) 2
+      - US 美国(Youtube频道：工具大师！)
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - (Youtube频道：工具大师！)美国
+      - us美国(yudou66.com 玉豆免费节点)
+      - Youtube@One·资源核 4
+      - 【YouTube-由零開始】
+      - US 美国(youtube阿伟科技)
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 欧洲(yudou66.com 玉豆免费节点)
+      - t(Youtube频道：工具大师！) 8
+      - 美国-3.03MB/s(Youtube频道：工具大师！)
+      - US 美国(youtube阿伟科技) 2
+      - 未知国家(Youtube频道：工具大师！)
+      - t(Youtube频道：工具大师！) 7
+      - 5
+      - github.com/freefq - 美国CloudFlare节点 18
+      - US 美国(Youtube频道：工具大师！) 2
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - 【YouTube-由零開始】 2
+      - 中国【YouTube-由零開始】
+      - US 美国(Youtube频道：工具大师！) 3
+      - t(Youtube频道：工具大师！) 10
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,11 +140,31 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【YouTube-由零開始】
+      - MO 1 → openitsub.com
       - 美国(yudou66.com 玉豆免费节点)
-      - 欧洲(yudou66.com 玉豆免费节点)
-      - 中国【YouTube-由零開始】
       - 美国(yudou66.com 玉豆免费节点) 2
+      - US 美国(Youtube频道：工具大师！)
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - (Youtube频道：工具大师！)美国
+      - us美国(yudou66.com 玉豆免费节点)
+      - Youtube@One·资源核 4
+      - 【YouTube-由零開始】
+      - US 美国(youtube阿伟科技)
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 欧洲(yudou66.com 玉豆免费节点)
+      - t(Youtube频道：工具大师！) 8
+      - 美国-3.03MB/s(Youtube频道：工具大师！)
+      - US 美国(youtube阿伟科技) 2
+      - 未知国家(Youtube频道：工具大师！)
+      - t(Youtube频道：工具大师！) 7
+      - 5
+      - github.com/freefq - 美国CloudFlare节点 18
+      - US 美国(Youtube频道：工具大师！) 2
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - 【YouTube-由零開始】 2
+      - 中国【YouTube-由零開始】
+      - US 美国(Youtube频道：工具大师！) 3
+      - t(Youtube频道：工具大师！) 10
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -75,32 +175,92 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 【YouTube-由零開始】
+      - MO 1 → openitsub.com
       - 美国(yudou66.com 玉豆免费节点)
-      - 欧洲(yudou66.com 玉豆免费节点)
-      - 中国【YouTube-由零開始】
       - 美国(yudou66.com 玉豆免费节点) 2
+      - US 美国(Youtube频道：工具大师！)
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - (Youtube频道：工具大师！)美国
+      - us美国(yudou66.com 玉豆免费节点)
+      - Youtube@One·资源核 4
+      - 【YouTube-由零開始】
+      - US 美国(youtube阿伟科技)
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 欧洲(yudou66.com 玉豆免费节点)
+      - t(Youtube频道：工具大师！) 8
+      - 美国-3.03MB/s(Youtube频道：工具大师！)
+      - US 美国(youtube阿伟科技) 2
+      - 未知国家(Youtube频道：工具大师！)
+      - t(Youtube频道：工具大师！) 7
+      - 5
+      - github.com/freefq - 美国CloudFlare节点 18
+      - US 美国(Youtube频道：工具大师！) 2
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - 【YouTube-由零開始】 2
+      - 中国【YouTube-由零開始】
+      - US 美国(Youtube频道：工具大师！) 3
+      - t(Youtube频道：工具大师！) 10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 【YouTube-由零開始】
+      - MO 1 → openitsub.com
       - 美国(yudou66.com 玉豆免费节点)
-      - 欧洲(yudou66.com 玉豆免费节点)
-      - 中国【YouTube-由零開始】
       - 美国(yudou66.com 玉豆免费节点) 2
+      - US 美国(Youtube频道：工具大师！)
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - (Youtube频道：工具大师！)美国
+      - us美国(yudou66.com 玉豆免费节点)
+      - Youtube@One·资源核 4
+      - 【YouTube-由零開始】
+      - US 美国(youtube阿伟科技)
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 欧洲(yudou66.com 玉豆免费节点)
+      - t(Youtube频道：工具大师！) 8
+      - 美国-3.03MB/s(Youtube频道：工具大师！)
+      - US 美国(youtube阿伟科技) 2
+      - 未知国家(Youtube频道：工具大师！)
+      - t(Youtube频道：工具大师！) 7
+      - 5
+      - github.com/freefq - 美国CloudFlare节点 18
+      - US 美国(Youtube频道：工具大师！) 2
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - 【YouTube-由零開始】 2
+      - 中国【YouTube-由零開始】
+      - US 美国(Youtube频道：工具大师！) 3
+      - t(Youtube频道：工具大师！) 10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 【YouTube-由零開始】
+      - MO 1 → openitsub.com
       - 美国(yudou66.com 玉豆免费节点)
-      - 欧洲(yudou66.com 玉豆免费节点)
-      - 中国【YouTube-由零開始】
       - 美国(yudou66.com 玉豆免费节点) 2
+      - US 美国(Youtube频道：工具大师！)
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - (Youtube频道：工具大师！)美国
+      - us美国(yudou66.com 玉豆免费节点)
+      - Youtube@One·资源核 4
+      - 【YouTube-由零開始】
+      - US 美国(youtube阿伟科技)
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 欧洲(yudou66.com 玉豆免费节点)
+      - t(Youtube频道：工具大师！) 8
+      - 美国-3.03MB/s(Youtube频道：工具大师！)
+      - US 美国(youtube阿伟科技) 2
+      - 未知国家(Youtube频道：工具大师！)
+      - t(Youtube频道：工具大师！) 7
+      - 5
+      - github.com/freefq - 美国CloudFlare节点 18
+      - US 美国(Youtube频道：工具大师！) 2
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - 【YouTube-由零開始】 2
+      - 中国【YouTube-由零開始】
+      - US 美国(Youtube频道：工具大师！) 3
+      - t(Youtube频道：工具大师！) 10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,11 +276,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 【YouTube-由零開始】
+      - MO 1 → openitsub.com
       - 美国(yudou66.com 玉豆免费节点)
-      - 欧洲(yudou66.com 玉豆免费节点)
-      - 中国【YouTube-由零開始】
       - 美国(yudou66.com 玉豆免费节点) 2
+      - US 美国(Youtube频道：工具大师！)
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - (Youtube频道：工具大师！)美国
+      - us美国(yudou66.com 玉豆免费节点)
+      - Youtube@One·资源核 4
+      - 【YouTube-由零開始】
+      - US 美国(youtube阿伟科技)
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 欧洲(yudou66.com 玉豆免费节点)
+      - t(Youtube频道：工具大师！) 8
+      - 美国-3.03MB/s(Youtube频道：工具大师！)
+      - US 美国(youtube阿伟科技) 2
+      - 未知国家(Youtube频道：工具大师！)
+      - t(Youtube频道：工具大师！) 7
+      - 5
+      - github.com/freefq - 美国CloudFlare节点 18
+      - US 美国(Youtube频道：工具大师！) 2
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - 【YouTube-由零開始】 2
+      - 中国【YouTube-由零開始】
+      - US 美国(Youtube频道：工具大师！) 3
+      - t(Youtube频道：工具大师！) 10
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
